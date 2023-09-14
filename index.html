@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Shorts Summary</title>
+  </head>
+
+  <body class="flex">
+    <div id="app" class="flex">
+      <section id="header" class="flex">
+        <img id="icon" src="./public/logo.svg" alt="" />
+        <h1>Shorts Summary</h1>
+      </section>
+
+      <form action="form" id="form" class="flex">
+        <input type="url" id="url" placeholder="URL do vídeo" />
+        <button title="iniciar" id="btn"><i class="ph ph-play"></i></button>
+      </form>
+
+      <section id="resume" class="flex">
+        <h2>Resumo</h2>
+        <p id="content">Escolha um short para resumir...</p>
+      </section>
+    </div>
+    <script type="module" src="./web/main.js"></script>
+  </body>
+</html>

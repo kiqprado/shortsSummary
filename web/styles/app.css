@@ -1,0 +1,67 @@
+#app {
+  gap: 4.6rem;
+  max-width: 40rem;
+}
+
+#header {
+  padding-top: 20rem;
+
+  align-items: center;
+}
+
+#icon {
+  transition: all 0.3s ease-in-out;
+}
+
+#icon:hover {
+  transform: scale(1.1);
+  filter: saturate(1.9);
+}
+
+h1 {
+  color: var(--tittle-color);
+}
+
+#resume {
+  width: 36rem;
+  gap: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+  color: var(--white);
+}
+
+p {
+  text-align: justify;
+  color: var(--placeholder);
+}
+
+.resumeColor {
+  color: var(--white)
+}
+
+.promptSelect {
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  #app {
+    max-width: 100rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header {
+    padding-top: 0;
+  }
+
+  #resume {
+    width: 51rem;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: start;
+  }
+}
