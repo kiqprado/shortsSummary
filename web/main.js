@@ -1,6 +1,6 @@
 import "./form.js"
 
 // styles
-import "/web/styles/base.css"
-import "/web/styles/app.css"
-import "/web/styles/form.css"
+import "./styles/base.css"
+import "./styles/app.css"
+import "./styles/form.css"
